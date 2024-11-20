@@ -1,0 +1,65 @@
+body{
+    font-family: "Sora";
+}
+
+.cardContainer {
+    margin-top: 164px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cardHeader,
+.cardBody {
+    padding: 0 16px;
+}
+
+.card {
+    max-width: 358px;
+    padding: 16px 0;
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+.cardImage {
+    width: 100%;
+    border-radius: 8px;
+    height: 152px;
+}
+
+.cardTag {
+    background-color: #F2EAFD;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 6px 16px;
+    color: #7C19EE;
+    margin: 16px 0;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.cardTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cardDescription {
+    font-size: 14px;
+    margin: 6px 0 20px 0;
+    color: #394150;
+    font-weight: 300;
+}
+
+.cardFooter {
+    font-size: 12px;
+    margin: 0;
+    padding: 0 16px;
+    border-top: 1px solid #E5EAF0;
+}
+
+.cardFooter p {
+    margin-bottom:0;
+    color: #394150;
+    font-weight: 300;
+}
